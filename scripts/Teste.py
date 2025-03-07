@@ -18,7 +18,7 @@ except Exception as e:
     print(f"Ocorreu um erro: {e}")
 
 # Substitua 'SUA_CHAVE_DE_API' pela sua chave de API do Gemini
-genai.configure(api_key="AIzaSyCsJmOGr4njLyx3W3lAooTI1uowHte1roA")
+genai.configure(api_key="null")
 
 # Carrega o modelo Gemini Pro
 model = genai.GenerativeModel('gemini-1.5-flash-8b')
